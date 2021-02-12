@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/btm_nav_storeFragment">
+    <fragment
+        android:id="@+id/btm_nav_storeFragment"
+        android:name="com.example.hutechsolutionstest.fragments.StoreFragment"
+        android:label="Store"
+        tools:layout="@layout/fragment_shop" />
+    <fragment
+        android:id="@+id/btm_nav_accountFragment"
+        android:name="com.example.hutechsolutionstest.fragments.AccountFragment"
+        android:label="Account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/btm_nav_cartFragment"
+        android:name="com.example.hutechsolutionstest.fragments.CartFragment"
+        android:label="Cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/btm_nav_exploreFragment"
+        android:name="com.example.hutechsolutionstest.Explore.ExploreFragment"
+        android:label="Explore"
+        tools:layout="@layout/fragment_explore" />
+    <fragment
+        android:id="@+id/btm_nav_favouriteFragment"
+        android:name="com.example.hutechsolutionstest.fragments.FavouriteFragment"
+        android:label="Favourite"
+        tools:layout="@layout/fragment_favourite" />
+</navigation>
